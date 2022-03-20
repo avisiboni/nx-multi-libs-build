@@ -5,6 +5,6 @@ export class AuthService{
     constructor(){}
 
     public isAuthenticated():boolean{
-        return Math.floor(Math.random() * 100) % 2===0;
+        return Math.floor(Math.random() * 100) % 2!==0;
     }
 }
