@@ -1,0 +1,26 @@
+{
+  "projectType": "library",
+  "root": "libs/ui-footer",
+  "sourceRoot": "libs/ui-footer/src",
+  "prefix": "nx-workspace-poc",
+  "targets": {
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/ui-footer"],
+      "options": {
+        "jestConfig": "libs/ui-footer/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/ui-footer/src/**/*.ts",
+          "libs/ui-footer/src/**/*.html"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

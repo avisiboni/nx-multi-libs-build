@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@nx-workspace-poc/api-interfaces": ["libs/api-interfaces/src/index.ts"],
-      "@nx-workspace-poc/auth-module": ["libs/auth-module/src/index.ts"]
+      "@nx-workspace-poc/auth-module": ["libs/auth-module/src/index.ts"],
+      "@nx-workspace-poc/ui-footer": ["libs/ui-footer/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
